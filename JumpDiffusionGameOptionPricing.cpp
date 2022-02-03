@@ -61,12 +61,10 @@ int main()
 
 double gameoptionValue(long double gammap, bool OnlyBS)
 {
-
     v2d * V;
     v2d * V_plus = new v2d (n+1, v1d(n+1));
 
     //Boundary condition
-    //std::cout << "Boundary condition\n";
     double discount = exp(-r*T);
     for(int j = -n, k = n; j <= n; j+=2, k--)//j = xi
     {
@@ -78,7 +76,6 @@ double gameoptionValue(long double gammap, bool OnlyBS)
     }
 
     //Backward Induction
-    //std::cout << "Backward Induction\n";
     double P_jump = 0.0;
 
     if (OnlyBS == false)
