@@ -7,7 +7,6 @@
 
 using namespace std;
 
-// first form
 typedef vector<double> v1d;
 typedef vector<v1d> v2d;
 //typedef vector<v2d> v3d;
