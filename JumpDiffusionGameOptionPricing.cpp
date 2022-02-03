@@ -26,6 +26,7 @@ double gameoptionValue(long double gamma, bool OnlyBS);
 
 int main()
 {
+//HERE ARE SOME TEST LOOPS
     double Solution = 0.0;
 
     Solution = gameoptionValue(0.0, true);
